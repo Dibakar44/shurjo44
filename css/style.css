@@ -12,9 +12,28 @@ hr {
   border-color: WHITE;
   border-style: none;
   border-top-style: dotted;
-  background-color: greey;
+  background-color: green;
   border-width: 10px;
-  width:10%;
   height: 2px;
   width:30%;
+}
+
+.circular_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  /* commented for demo
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  */
+
+  /*for demo*/
+  display:inline-block;
+  vertical-align:middle;
+}
+.circular_image img{
+  width:100%;
 }
